@@ -1,66 +1,100 @@
-## Foundry
+<!-- CENTER HEADER -->
+<p align="center">
+  🌐 <strong>HUB Ecosystem Project</strong> — decentralized, Web3 economy powered by the Base network ⚙️
+</p>
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+<!-- Typing SVG -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Courier+Prime&weight=700&size=28&pause=800&color=35D07F&center=true&vCenter=true&width=800&lines=Welcome+to+the+HUB+Ecosystem+Project!;A+decentralized+network+powered+by+Base+%26+HUB+Token." alt="Typing SVG" />
+</p>
 
-Foundry consists of:
+---
 
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Mystique85/HUB-Ecosystem-Project/main/docs/logo_hub.png" alt="HUB Logo" width="140"/>
+  <br/>
+  <strong>Base Layer 2 Ethereum | Governance • Rewards • Autonomy</strong>
+</div>
 
-## Documentation
+---
 
-https://book.getfoundry.sh/
 
-## Usage
 
-### Build
+**HUB Ecosystem** to zdecentralizowana, autonomiczna gospodarka Web3 działająca na **Base Mainnet**,  
+zbudowana wokół jednego centralnego aktywa — **HUBToken  (HUB)**.  
+Token jest zaprojektowany tak, aby stać się samowystarczalnym elementem ekosystemu:  
+zarządzać własną płynnością, generować przychody i wspierać rozwój sieci bez scentralizowanej kontroli.
 
-```shell
-$ forge build
-```
+---
+## 🧠 Wizja projektu
 
-### Test
+Celem HUB Ecosystem jest stworzenie **autonomicznej, zrównoważonej gospodarki tokenowej**,  
+gdzie wartość jest generowana i utrzymywana w obrębie sieci.  
+System będzie nagradzać uczestników, rozwijać się poprzez społeczność i działać bez centralnego nadzoru.  
 
-```shell
-$ forge test
-```
+### Główne filary:
+1. **Autonomia** – inteligentne kontrakty decydują o przepływie wartości.  
+2. **Płynność** – HUB sam zarządza swoimi pulami DEX.  
+3. **Zarządzanie** – posiadacze HUB będą mogli głosować nad parametrami systemu.  
+4. **Nagradzanie** – długofalowy system motywacyjny dla aktywnych uczestników.  
 
-### Format
+---
 
-```shell
-$ forge fmt
-```
+## 🪙 HUB Token Overview
 
-### Gas Snapshots
+**Symbol:** `HUB`  
+**Sieć:** Base Mainnet  
+**Standard:** ERC-20 (z rozszerzeniami: Pausable, AccessControl, ReentrancyGuard)  
+**Całkowita podaż (MAX_SUPPLY):** 10 000 000 000 HUB  
+**Decymale:** 18  
+**Licencja:** MIT  
+**Autor:** Mysticpol
 
-```shell
-$ forge snapshot
-```
+### Kontrakt
+Adres kontraktu HUBToken  
+[0x58EFDe38eF2B12392BFB3dc4E503493C46636B3E](https://basescan.org/address/0x58efde38ef2b12392bfb3dc4e503493c46636b3e)  
 
-### Anvil
 
-```shell
-$ anvil
-```
+---
 
-### Deploy
 
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
+## 🧩 Struktura i alokacja tokenów (Tokenomics v1)
 
-### Cast
+| Alokacja | Adres docelowy | Ilość | Cel |
+|-----------|----------------|-------|------|
+| 🏦 **Reward Vault** | `REWARD_VAULT` | 8 000 000 000 HUB | Nagrody dla użytkowników i staking |
+| 💧 **Liquidity Pool** | `LIQUIDITY_POOL` | 500 000 000 HUB | Zasilenie pul płynności na DEX-ach |
+| 🧠 **Team 1** | `DEPLOYER` | 750 000 000 HUB | Inicjalna rezerwa techniczna |
+| ⚙️ **Team 2** | `DEV2` | 750 000 000 HUB | Drugi adres deweloperski |
+| **Łącznie** | — | **10 000 000 000 HUB** | — |
 
-```shell
-$ cast <subcommand>
-```
+Cała emisja została wykonana w momencie wdrożenia.  
+Żadne nowe tokeny nie mogą być wybite poza `MAX_SUPPLY`.
 
-### Help
+---
 
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+## 🧭 Architektura i przyszła ekspansja
+
+HUB Token stanowi **rdzeń ekosystemu**, a jego funkcjonalność będzie rozszerzana poprzez powiązane kontrakty.  
+Poniżej przedstawiono planowany schemat rozwoju (Tokenomics v2):
+
+| Moduł | Opis | Status |
+|--------|------|--------|
+| **Vault.sol** | Zarządza stakingiem i nagrodami dla użytkowników. | 🔄 W trakcie projektowania |
+| **LiquidityManager.sol** | Automatycznie dodaje płynność na DEX-ach i zarządza pulami HUB/ETH. | 🧩 W planach |
+| **Treasury.sol** | Zbiera prowizje z ekosystemu, zarządza rezerwą, buyback i spalaniem. | 🧩 W planach |
+| **Governance.sol** | DAO – zarządzanie parametrami ekosystemu przez posiadaczy HUB. | 🧩 W planach |
+| **EcosystemRouter.sol** | Warstwa komunikacyjna między kontraktami (core HUB <-> moduły). | 🧩 W planach |
+
+---
+
+## 🧾 Licencja
+
+Ten projekt jest objęty licencją **MIT License**.  
+© 2025 Mysticpol — All rights reserved.
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Courier+Prime&weight=700&size=22&pause=800&color=35D07F&center=true&vCenter=true&width=700&lines=Built+with+💚+by+Mysticpol+for+the+Base+community" alt="Typing SVG" />
+</p>
