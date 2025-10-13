@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- CENTER HEADER -->
 <p align="center">
   🌐 <strong>HUB Ecosystem Project</strong> — decentralized, Web3 economy powered by the Base network ⚙️
