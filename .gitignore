@@ -10,6 +10,11 @@
 !src/
 !src/**/*.sol
 
+# === Allow assets (logo, banners, etc.) ===
+!assets/
+!assets/**
+
+
 # === Git and license files ===
 !.gitignore
 !README.md
