@@ -1,0 +1,61 @@
+# ================================
+# 🧠 HUB Ecosystem Token Project
+# Public repo — show only contract source code
+# ================================
+
+# === Ignore everything by default ===
+*
+
+# === Keep only Solidity contract sources ===
+!src/
+!src/**/*.sol
+
+# === Git and license files ===
+!.gitignore
+!README.md
+!LICENSE
+
+# === Explicitly hide sensitive and build files ===
+.env
+.env.*
+secret.json
+keys.json
+*.keystore
+foundry.toml.local
+foundry.local.toml
+foundry.lock
+foundry.toml
+
+# === Ignore build & cache ===
+out/
+cache/
+artifacts/
+broadcast/
+lib/
+node_modules/
+
+# === Docs, coverage, temp, IDE, OS ===
+docs/
+docgen/
+coverage/
+coverage.json
+.vscode/
+.idea/
+*.iml
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*.bak
+*.log
+.DS_Store
+Thumbs.db
+
+# === System dirs (Windows/macOS safety) ===
+/Users/
+/Documents/
+/Downloads/
+/AppData/
+/OneDrive/
+/Desktop/
