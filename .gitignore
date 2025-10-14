@@ -1,5 +1,5 @@
 # ================================
-# 🧠 HUB Ecosystem Token Project
+# HUB Ecosystem Token Project
 # Public repo — show only contract source code
 # ================================
 
@@ -9,6 +9,12 @@
 # === Keep only Solidity contract sources ===
 !src/
 !src/**/*.sol
+
+# === Allow contracts and docs folders ===
+!contracts/
+!contracts/**/*.sol
+!docs/
+!docs/**
 
 # === Allow assets (logo, banners, etc.) ===
 !assets/
@@ -40,7 +46,7 @@ lib/
 node_modules/
 
 # === Docs, coverage, temp, IDE, OS ===
-docs/
+# === Docs, coverage, temp, IDE, OS ===
 docgen/
 coverage/
 coverage.json
