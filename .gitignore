@@ -1,57 +1,38 @@
 # ================================
-# HUB Ecosystem Token Project
-# Public repo — show only contract source code
+# 🧠 HUB Ecosystem Token Project
+# Clean public repo configuration
 # ================================
 
-# === Ignore everything by default ===
-*
-
-# === Keep only Solidity contract sources ===
-!src/
-!src/**/*.sol
-
-# === Allow contracts and docs folders ===
-!contracts/
-!contracts/**/*.sol
-!docs/
-!docs/**
-
-# === Allow assets (logo, banners, etc.) ===
-!assets/
-!assets/**
-
-
-# === Git and license files ===
-!.gitignore
-!README.md
-!LICENSE
-!CONTRIBUTING.md
-
-
-# === Explicitly hide sensitive and build files ===
+# === Private and environment files ===
 .env
 .env.*
-secret.json
-keys.json
+secret.*
+keys.*
 *.keystore
+*.pem
+*.p12
+*.key
+*.cert
+*.csr
+
+# === Foundry / Hardhat local files ===
 foundry.toml.local
 foundry.local.toml
 foundry.lock
-foundry.toml
+hardhat.config.local.js
+*.lock
 
-# === Ignore build & cache ===
+# === Build and cache ===
 out/
 cache/
 artifacts/
 broadcast/
 lib/
 node_modules/
-
-# === Docs, coverage, temp, IDE, OS ===
-# === Docs, coverage, temp, IDE, OS ===
-docgen/
 coverage/
 coverage.json
+
+# === Temporary / system / IDE ===
 .vscode/
 .idea/
 *.iml
@@ -65,10 +46,19 @@ temp/
 .DS_Store
 Thumbs.db
 
-# === System dirs (Windows/macOS safety) ===
+# === OS / user directories ===
 /Users/
 /Documents/
 /Downloads/
 /AppData/
 /OneDrive/
 /Desktop/
+
+# === Explicitly include public repo content ===
+!README.md
+!README.pl.md
+!LICENSE
+!CODE_OF_CONDUCT.md
+!CONTRIBUTING.md
+
+# Everything else is tracked by default
