@@ -25,6 +25,8 @@
 !.gitignore
 !README.md
 !LICENSE
+!CONTRIBUTING.md
+
 
 # === Explicitly hide sensitive and build files ===
 .env
