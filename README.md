@@ -12,7 +12,7 @@
 
 ## 🚀 Quick Links
 
-[![Website](https://img.shields.io/badge/🚀_Visit_Platform-HUB_Ecosystem-00ff88?style=for-the-badge&logo=vercel&logoColor=black)](https://hub-ecosystem.vercel.app)
+[![Website](https://img.shields.io/badge/🚀_Visit_Platform-HUB_Ecosystem-00ff88?style=for-the-badge&logo=vercel&logoColor=black)](https://hubecosystem-portal.vercel.app/#projects)
 [![Contract](https://img.shields.io/badge/📄_HUB_Token_Contract-8b5cf6?style=for-the-badge&logo=ethereum&logoColor=white)](https://basescan.org/address/0x58efde38ef2b12392bfb3dc4e503493c46636b3e)
 
 </div>
