@@ -1,138 +1,145 @@
 <!-- HEADER -->
-<p align="center">
+<div align="center">
 
-<img src="https://raw.githubusercontent.com/Mystique85/HUB-Ecosystem-Project/main/assets/token.icon.png" alt="HUB Logo" width="30" style="vertical-align: middle;"/>
-<strong>HUB Ecosystem Project</strong> — an autonomous Web3 economy operating on Base Mainnet ⚙️
+# 🪙 HUB Ecosystem Portal
 
+### 🌐 Connecting Web3 Innovations Across Multiple Networks
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Courier+Prime&weight=700&size=24&pause=800&color=35D07F&center=true&vCenter=true&width=800&lines=HUB+Token+%7C+Autonomous+Web3+Ecosystem+on+Base;A+decentralized+network+governed+by+the+community" alt="Typing SVG" />
-</p>
+<!-- ANIMATED-LIKE TEXT USING SVG -->
+![HUB Ecosystem Typing](https://readme-typing-svg.herokuapp.com?font=Courier+Prime&weight=700&size=24&pause=800&color=35D07F&center=true&vCenter=true&width=800&lines=HUB+Ecosystem+%7C+Token+%2B+Web3+Platform;Autonomous+economy+on+Base+%2B+multi-chain)
 
 ---
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Mystique85/HUB-Ecosystem-Project/main/assets/token.icon.png" alt="HUB Logo" width="100"/>
-  <br/>
-  <strong>Base Layer 2 Ethereum | Governance • Rewards • Autonomy</strong>
+## 🚀 Quick Links
+
+[![Website](https://img.shields.io/badge/🚀_Visit_Platform-HUB_Ecosystem-00ff88?style=for-the-badge&logo=vercel&logoColor=black)](https://hub-ecosystem.vercel.app)
+[![Contract](https://img.shields.io/badge/📄_HUB_Token_Contract-8b5cf6?style=for-the-badge&logo=ethereum&logoColor=white)](https://basescan.org/address/0x58efde38ef2b12392bfb3dc4e503493c46636b3e)
+
 </div>
 
 ---
 
-## 🧠 About the Project
+## 🎯 Core Vision
 
-**HUB Ecosystem** is a decentralized, autonomous Web3 economy operating on **Base Mainnet (Layer 2 Ethereum)**, built around one core asset — **HUB Ecosystem (HUB)**.
+**HUB Ecosystem** combines **autonomous token economics** with **multi-chain project incubation** to create a comprehensive Web3 platform that grows organically through community participation and innovative dApp development.
 
-The HUB token is designed to **self-manage its liquidity, generate revenue, and support ecosystem growth** without centralized control.
-
----
-
-## 🪙 HUB Ecosystem — The Foundation of the Network
-
-**Symbol:** `HUB`  
-**Network:** Base Mainnet  
-**Standard:** ERC-20 (extensions: Pausable, AccessControl, ReentrancyGuard)  
-**Total Supply:** `10 000 000 000 HUB`  
-**Decimals:** 18  
-**License:** MIT  
-**Author:** Mysticpol  
-**Contract Address:**  
-[`0x58EFDe38eF2B12392BFB3dc4E503493C46636B3E`](https://basescan.org/address/0x58efde38ef2b12392bfb3dc4e503493c46636b3e)
+### 🏗️ Dual Architecture
+- **🪙 HUB Token** - Autonomous economy on Base Mainnet  
+- **🌐 Web3 Platform** - Multi-chain project ecosystem
 
 ---
 
-## ⚙️ Contract Architecture
+## 🪙 HUB Token Economy
 
-The **HUBToken.sol** contract integrates four main OpenZeppelin modules:
-- **ERC20** – standard token implementation,  
-- **ERC20Pausable** – ability to halt transfers,  
-- **AccessControl** – role-based access management,  
-- **ReentrancyGuard** – protection from reentrancy exploits.
+### 📊 Token Specifications
 
-Additional features:
-- `MAX_SUPPLY` – hard cap, never exceeded,  
-- `transferAndCall()` – enables integrations with other ecosystem contracts (DAO, Vault, Staking).
+| Specification | Details |
+|---------------|---------|
+| **Symbol** | `HUB` |
+| **Network** | Base Mainnet (L2 Ethereum) |
+| **Standard** | ERC-20 with extensions |
+| **Total Supply** | 10,000,000,000 HUB |
+| **Contract** | [`0x58EFDe38...36B3E`](https://basescan.org/address/0x58efde38ef2b12392bfb3dc4e503493c46636b3e) |
 
----
+### 🧩 Token Distribution
 
-## 🧩 Tokenomics (v1)
-
-| Allocation | Address | Amount | Purpose |
-|-------------|----------|---------|----------|
-| 🏦 **Reward Vault** | `REWARD_VAULT` | 8 000 000 000 HUB | Rewards, staking, loyalty |
-| 💧 **Liquidity Pool** | `LIQUIDITY_POOL` | 500 000 000 HUB | DEX liquidity |
-| 🧠 **Team 1** | `DEPLOYER` | 750 000 000 HUB | Technical reserve |
-| ⚙️ **Team 2** | `DEV2` | 750 000 000 HUB | Development and maintenance |
-
-👉 All tokens minted at deployment time.  
-No additional minting beyond `MAX_SUPPLY`.
+| Allocation | Amount | Purpose |
+|------------|---------|----------|
+| 🏦 **Reward Vault** | 8,000,000,000 HUB | Rewards, staking, loyalty |
+| 💧 **Liquidity Pool** | 500,000,000 HUB | DEX liquidity |
+| ⚙️ **Development** | 1,500,000,000 HUB | Team & ecosystem growth |
 
 ---
 
-## 🔁 HUB Circulation within the Ecosystem
+## 🚀 Featured Projects
 
-HUB is **not just a token** – it’s the **core medium of value and interaction** across the system.
+### 🔥 HelloCelo
+**Decentralized messaging dApp on Celo network** rewarding users with **$HC tokens** for every message.
 
-### Main Components:
-1. **Reward Mechanism (Vault.sol)** – staking and user rewards.  
-2. **Liquidity Manager (LiquidityManager.sol)** – automated DEX liquidity management.  
-3. **Treasury.sol** – fee collection, buybacks, and burns.  
-4. **Governance.sol (DAO)** – ecosystem parameter voting.  
-5. **EcosystemRouter.sol** – integration layer connecting all contracts.
+**Features:**
+- 🎯 Token rewards for user activity
+- 🔒 Decentralized messaging protocol
+- 🌱 Celo blockchain integration
 
----
+**Links:** 
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/Mystique85/HelloCeloV2)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-00ff88?style=flat)](https://hello-celo-v2.vercel.app/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter)](https://x.com/HelloCelo_HC)
 
-## 🧠 HUB Token Utility
+### 🗳️ HelloVote  
+**Anonymous voting platform** where community engagement pays off with **$VOTE tokens**.
 
-| Function | Description | Purpose |
-|-----------|--------------|----------|
-| 💎 **Utility Token** | Used for fees, staking, and ecosystem access. | Economy & demand |
-| 🗳️ **Governance Token** | Grants voting power in DAO. | Decentralization |
-| 🎁 **Reward Token** | Distributed as user incentives. | Motivation |
-| 💧 **Liquidity Asset** | Pairs with ETH/USDC on DEXs. | Market stability |
-| 🔄 **Ecosystem Bridge** | Connects HUB modules and sub-projects. | Scalability |
+**Features:**
+- ✅ Anonymous voting mechanism
+- 🎁 Token-based rewards system
+- 🏛️ Decentralized governance features
 
----
-
-## 🔒 Security Features
-
-- **Pausable:** operator can halt transfers.  
-- **AccessControl:** restricted permissions.  
-- **ReentrancyGuard:** protects `transferAndCall()` function.  
-- **MAX_SUPPLY:** prevents token inflation.
+**Links:**
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/Mystique85/hello-vote)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-00ff88?style=flat)](https://hello-vote.vercel.app/)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter)](https://x.com/HelloCelo_HC)
 
 ---
 
-## 🌱 HUB Growth Mechanism
+## 🌐 Platform & Community
 
-1. Ecosystem projects use HUB for operations.  
-2. Treasury repurchases HUB → deflationary model.  
-3. Stakers earn HUB rewards → adoption growth.  
-4. DAO governs all major updates → decentralization.
+### 🎯 HUB Ecosystem Portal
+**Visit our main platform to explore all projects and join the growing Web3 community.**
 
-As a result, HUB evolves into a **self-sustaining organism**, strengthening as the ecosystem expands.
+[**🌐 Explore Platform**](https://hub-ecosystem.vercel.app)
 
----
+### 👥 Join Our Community
 
-## 🧭 Future Expansion (Tokenomics v2)
-
-| Module | Description | Status |
-|---------|--------------|--------|
-| **Vault.sol** | Manages staking and rewards. | 🔄 In development |
-| **LiquidityManager.sol** | Automates DEX liquidity provisioning. | 🧩 Planned |
-| **Treasury.sol** | Handles buybacks and reserves. | 🧩 Planned |
-| **Governance.sol** | DAO voting and proposal management. | 🧩 Planned |
-| **EcosystemRouter.sol** | Integrates HUB ecosystem modules. | 🧩 Planned |
+[![Twitter](https://img.shields.io/badge/🐦_Twitter/X-Follow_Progress-1DA1F2?style=for-the-badge&logo=twitter)](https://x.com/BaseEngageHub)
+[![Discord](https://img.shields.io/badge/💬_Discord-Join_Chat-5865F2?style=for-the-badge&logo=discord)](https://discord.gg/9d4VFb3J5s)
+[![GitHub](https://img.shields.io/badge/💻_GitHub-View_Code-181717?style=for-the-badge&logo=github)](https://github.com/Mystique85)
 
 ---
 
-## 🧾 License
+## 📈 Development Roadmap
 
-Project licensed under **MIT License**  
-© 2025 Mysticpol — All rights reserved.
+### 🚧 Current Focus
+- 🔥 **HelloCelo V2** - Active development
+- 🌐 **Platform Enhancements** - Ongoing improvements
+- 🤝 **Community Growth** - Building our first supporters
+
+### 🗓️ Development Phases
+
+| Phase | Status | Focus |
+|-------|---------|--------|
+| **✅ Phase 1: Foundation** | Complete | HUB Token + Platform Launch |
+| **🚧 Phase 2: Expansion** | Active | Project Integration & Features |
+| **🧩 Phase 3: Ecosystem** | Planning | DAO & Advanced Governance |
 
 ---
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Courier+Prime&weight=700&size=22&pause=800&color=35D07F&center=true&vCenter=true&width=700&lines=Built+with+💚+by+Mysticpol+for+the+Base+community" alt="Typing SVG" />
-</p>
+## 🔧 Technical Stack
+
+| Layer | Technology |
+|-------|------------|
+| **🪙 Smart Contracts** | Solidity, OpenZeppelin |
+| **🌐 Frontend** | HTML5, CSS3, JavaScript |
+| **🚀 Deployment** | Vercel |
+| **🔗 Blockchains** | Base, Celo, Multi-chain |
+
+---
+
+## 🛡️ Security & Features
+
+- 🔒 **Pausable** - Emergency transfer halting
+- 👑 **AccessControl** - Role-based permissions  
+- 🛡️ **ReentrancyGuard** - Exploit protection
+- 📊 **MAX_SUPPLY** - No inflation guarantee
+
+---
+
+<div align="center">
+
+<!-- ANIMATED FOOTER TEXT -->
+![Built with Love](https://readme-typing-svg.herokuapp.com?font=Courier+Prime&weight=700&size=22&pause=800&color=35D07F&center=true&vCenter=true&width=700&lines=Built+with+💚+for+the+Web3+community)
+
+**HUB Ecosystem** • **MIT License** • **© 2025 Mysticpol**
+
+[![Visit Website](https://img.shields.io/badge/🌐_Visit_HUB_Ecosystem_Portal-00ff88?style=for-the-badge&logo=vercel)](https://hub-ecosystem.vercel.app)
+
+</div>
